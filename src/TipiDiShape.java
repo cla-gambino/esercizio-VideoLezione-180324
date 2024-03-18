@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public enum TipiDiShape {
+public enum TipiDiShape {
+
+    RETTANGOLO,
+    QUADRATO
 }

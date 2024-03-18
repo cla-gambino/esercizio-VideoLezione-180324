@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Quadrato {
+public class Quadrato implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("quadrato");
+
+
+    }
 }

@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Rettangolo {
+public class Rettangolo implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("rettangolo");
+    }
 }
