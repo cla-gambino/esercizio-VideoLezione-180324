@@ -1,16 +1,17 @@
-public class Rettangolo implements Shape {
+public class Cerchio implements Shape {
     @Override
     public void draw() {
-        System.out.println("rettangolo");
+        System.out.println("cerchio");
+
     }
 
     @Override
     public TipiDiShape getShape() {
-        return TipiDiShape.RETTANGOLO;
+        return TipiDiShape.CERCHIO;
     }
 
     @Override
     public String toString() {
-        return "Rettangolo";
+        return "Cerchio";
     }
 }

@@ -1,4 +1,8 @@
 public interface Shape {
 
-    public void draw();
+    void draw();
+
+    TipiDiShape getShape();
+
+
 }

@@ -9,13 +9,18 @@ public class Main {
         FactoryClass factoryClass = new FactoryClass();
 
         Shape rettangolo = factoryClass.createShape(TipiDiShape.RETTANGOLO);
-        Shape quadrato = factoryClass.createShape(TipiDiShape.QUADRATO);
+        Shape quadrato = factoryClass.createShape(TipiDiShape.CERCHIO);
 
         rettangolo.draw();
         quadrato.draw();
 
+        ShapeContainer shapeContainer = new ShapeContainer();
+        shapeContainer.addShape(TipiDiShape.RETTANGOLO);
 
+        System.out.println(shapeContainer);
 
+        System.out.println(shapeContainer.shapeCounting(TipiDiShape.RETTANGOLO));
+        System.out.println(shapeContainer.shapeCounting(TipiDiShape.CERCHIO));
 
 
     }

@@ -1,5 +1,5 @@
 public enum TipiDiShape {
 
     RETTANGOLO,
-    QUADRATO
+    CERCHIO
 }
